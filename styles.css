@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
 }
+/*nav*/
 .nav-bar {
     
         display: flex;
@@ -33,7 +34,8 @@
     border: red solid 1px;
     margin: 0 0 0 2px;
   }
-  .hero {
+/*hero*/
+ .hero {
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
@@ -42,7 +44,7 @@
     padding: 90px;
 }
 .hero-text {
-    flex-basis: 500px;
+    flex-basis: 400px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -52,15 +54,53 @@
     font-family: 'Roboto', arial;
     opacity: 0.7;
 }
+/*mitad de pagina parrafo cta*/
+
+.middle-page{
+    display: flex;
+    flex-direction: column;
+}
+.middle-h1{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+}
+/*cuadros*/
+
 .cuadros {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
-.cuadro {
+.cuadros img {
     align-content: center;
     border: solid 4px #3882F6;
     width: 200px;
     height: 200px;
-    border-radius: 10%;
+    border-radius: 15px;
+}
+.cuadros p{
+    text-align: center;
+}
+.recuadro-cita{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 400px 0 400px;
+}
+.cita {
+    ont-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+.autor-cita{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
 }
